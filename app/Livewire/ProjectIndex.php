@@ -18,4 +18,4 @@ class ProjectIndex extends Component
             'latest_articles' => News::latest()->take(3)->get(),
         ])->layout('layouts.app'); // Memastikan menggunakan layout utama
     }
-}
+}   
